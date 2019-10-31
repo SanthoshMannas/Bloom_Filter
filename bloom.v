@@ -38,8 +38,7 @@ module bloom(clk,data,rst,insert,check,match, out);
 					match_1 = match_1 & chk[i];
 				end 
 				
-			
-			//comparator comp_inst(clk ,	gen_bl ,bloom_f ,match);	
+		
 			end
 	end
 	
